@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@800&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+/* General Styles */
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+a:hover {
+    color: coral;
+}
+
+.active-page,
+.active-page a,
+.active-page:disabled {
+    background-color: coral;
+    color: whitesmoke;
+    cursor: default;
+    text-decoration: none;
+}
+
+/* General Navbar Styles */
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #121212e5;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    background-color: coral;
+    color: whitesmoke;
+}
+
+.navbar {
+    font-family: 'JetBrains Mono';
+    font-size: 2rem;
+}

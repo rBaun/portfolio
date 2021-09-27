@@ -1,0 +1,50 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.project-banners-container {
+    display: table;
+    width: 100vw;
+    height: 100vh;
+    table-layout: fixed;
+}
+
+.project-banners-container:hover .project-banner {
+    opacity: 0.3;
+    color: #121212;
+}
+
+.project-banners-container .project-banner {
+    display: table-cell;
+    height: 100%;
+    width: 25%;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+    transition: all 300ms ease;
+    text-decoration: none;
+    color: #121212;
+}
+
+.project-banners-container .project-banner:hover {
+    width: 50%;
+    opacity: 1;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.project-banners-container .project-banner .project-banner-text {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-background-color {
+    padding: 5px 10px;
+    background-color: coral;
+}
