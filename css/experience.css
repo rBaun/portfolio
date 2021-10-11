@@ -74,8 +74,8 @@ html {
 }
 
 /* Education */
-.education-header,
-.experience-header {
+.whitesmoke-header,
+.coral-header {
     /* margin: 0 200px; */
     padding: 31px 0;
     text-align:center;
@@ -84,10 +84,10 @@ html {
     background-color: #121212e5;
 }
 
-.education-header {
+.coral-header {
     color: coral;
 }
 
-.experience-header {
+.whitesmoke-header {
     color: whitesmoke;
 }
